@@ -112,7 +112,7 @@ st.logo(image="images/streamlit-logo-primary-colormark-lighttext.png",
         icon_image="images/streamlit-mark-color.png")
 
 with st.sidebar:
-    st.title("YouTube Channel Dashboard")
+    st.title("Dashboard")
     st.header("⚙️ Settings")
     
     max_date = df['DATE'].max().date()
