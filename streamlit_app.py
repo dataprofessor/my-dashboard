@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import timedelta, datetime
 
 # Set page config
-st.set_page_config(page_title="YouTube Channel Dashboard", layout="wide")
+st.set_page_config(page_title="Dashboard", layout="wide")
 
 # Helper functions
 @st.cache_data
